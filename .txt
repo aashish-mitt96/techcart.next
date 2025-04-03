@@ -1,0 +1,13 @@
+Step 1 => Authentication using Clerk.com .
+          In App Context get the user using newUser() Hook.
+          Pass it in value so that whole app can access it.
+          Use user in Navbar.
+          Add new user entry cart in UserButton in Navbar.
+
+Step 2 => Add MongoDB. config folder-> db.js file.
+          Create User model.
+
+Step 3 => Sign in to Inngest. Get Event Key & Signin Key.
+          Read Documentation to create some files in config.
+          Create function in inggest.js to store user's data in database.
+          Create api folder in app for all your api's.
